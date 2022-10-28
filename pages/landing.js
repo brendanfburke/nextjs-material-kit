@@ -51,26 +51,7 @@ export default function LandingPage(props) {
               <h3  className={classes.subtitle}>
                 A Movie Studio in Your Pocket
               </h3>
-              <h4>
-                Lightcraft Jetset brings the power of advanced virtual production to anyone with an iPhone or iPad.
-                <br />
-                <br />
-                This scene of a futuristic train barrelling through the Austrailian Outback was shot outdoors on a grassy berm using an iPad at the beach in Santa Monica, California.
-                <br />
-                <br />
-                The fight scenes took place on soft grass, and the matte was automatically geneated in the iPad using AI techniques.
-              </h4>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://vimeo.com/760090737/693be1e969"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Watch video
-              </Button>
             </GridItem>
           </GridContainer>
         </div>
