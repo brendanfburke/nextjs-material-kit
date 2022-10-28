@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NextJS Material Kit"
+        brand="Lightcraft"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -43,22 +43,28 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/landing-bg.jpg">
+      <Parallax filter responsive image="/img/camera.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}>Lightcraft Jetset</h1>
+              <h3  className={classes.subtitle}>
+                A Movie Studio in Your Pocket
+              </h3>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+                Lightcraft Jetset brings the power of advanced virtual production to anyone with an iPhone or iPad.
+                <br />
+                <br />
+                This scene of a futuristic train barrelling through the Austrailian Outback was shot outdoors on a grassy berm using an iPad at the beach in Santa Monica, California.
+                <br />
+                <br />
+                The fight scenes took place on soft grass, and the matte was automatically geneated in the iPad using AI techniques.
               </h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://vimeo.com/760090737/693be1e969"
                 target="_blank"
                 rel="noopener noreferrer"
               >
