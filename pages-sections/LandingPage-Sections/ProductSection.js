@@ -27,7 +27,7 @@ export default function ProductSection() {
     The iPhone or iPad shows you a real time composite of your action foreground with your 3D background.
     <br />
     <br />
-    It's just like shooting in the real world, except Jetset magically sees your desired background and figures out how to combine the live action.
+    It&apos;s just like shooting in the real world, except Jetset magically sees your desired background and figures out how to combine the live action.
     <br />
     <br />
     Meanwhile, you can shoot in the places you have. In a park, in a back yard, or in your house. You can shoot with or without a green screen. You can see here that there is no green screen so the matting was done with AI tools.
