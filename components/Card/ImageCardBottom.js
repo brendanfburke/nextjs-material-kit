@@ -16,6 +16,8 @@ const styles = {
     color: "#6c757d"
   },
   imgCardBottom: {
+    objectFit: "scale-down",
+    width: "100%"
   }
 };
 
