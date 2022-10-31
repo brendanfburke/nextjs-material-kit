@@ -16,10 +16,6 @@ const styles = {
     color: "#6c757d"
   },
   imgCardBottom: {
-      margin: ".675rem",
-      borderRadius: "20px",
-      boxShadow:
-      "0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -5px rgba(0, 0, 0, 0.5), 0 1px 5px 0 rgba(0, 0, 0, 0.12)",
   }
 };
 
