@@ -15,6 +15,10 @@ const infoStyle = {
     margin: "0 auto",
     padding: "0px"
   },
+  image: {
+    maxWidth: "100%",
+    marginBottom: "20px"
+  },
   iconWrapper: {
     float: "left",
     marginTop: "24px",

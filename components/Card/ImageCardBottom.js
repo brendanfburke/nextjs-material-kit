@@ -15,6 +15,12 @@ const styles = {
   textMuted: {
     color: "#6c757d"
   },
+  imgCardBottom: {
+      margin: ".675rem",
+      borderRadius: "20px",
+      boxShadow:
+      "0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -5px rgba(0, 0, 0, 0.5), 0 1px 5px 0 rgba(0, 0, 0, 0.12)",
+  }
 };
 
 const useStyles = makeStyles(styles);
@@ -29,15 +35,6 @@ export default function ImageCardBottom(props) {
         <CardBody>
             <h4 className={classes.cardTitle}>{cardTitle}</h4>
             {cardContent}
-          {/* <p>
-            The iPhone or iPad shows you a real time composite of your action foreground with your 3D background.
-            <br />
-            <br />
-            It's just like shooting in the real world, except Jetset magically sees your desired background and figures out how to combine the live action.
-            <br />
-            <br />
-            Meanwhile, you can shoot in the places you have. In a park, in a back yard, or in your house. You can shoot with or without a green screen. You can see here that there is no green screen so the matting was done with AI tools.
-          </p> */}
         </CardBody>
         <img className={classes.imgCardBottom} src={photo} alt={alt} />
       </Card>

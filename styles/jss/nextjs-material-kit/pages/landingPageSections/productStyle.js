@@ -5,6 +5,9 @@ const productStyle = {
     padding: "70px 0",
     textAlign: "center"
   },
+  logo_card_title: {
+      fontWeight: "500",
+  },
   title: {
     ...title,
     marginBottom: "1rem",
