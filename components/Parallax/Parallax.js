@@ -46,13 +46,14 @@ export default function Parallax(props) {
   return (
     <div
       className={parallaxClasses}
-      style={{
-        ...style,
-        backgroundImage: "url(" + image + ")",
-        transform: transform
-      }}
+      // style={{
+      //   ...style,
+      //   transform: transform
+      // }}
     >
-      {children}
+      <video playsInline autoPlay muted loop className={classes.video}>
+        <source  src='img/train.mp4' type='video/mp4'/>
+      </video>
     </div>
   );
 }

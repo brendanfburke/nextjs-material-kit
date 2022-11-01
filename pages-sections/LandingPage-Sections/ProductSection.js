@@ -185,7 +185,7 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>A Green Screen Anywhere Anytime</h2>
+          <h2 className={classes.title}>A Green Screen Anytime Anywhere </h2>
           <h5 className={classes.description}>
             Lightcraft Jetset brings the power of advanced virtual production to anyone with an iPhone or iPad.
             <br />
